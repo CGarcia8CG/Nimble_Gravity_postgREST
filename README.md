@@ -30,6 +30,10 @@ scoop install postgrest
 pip install psycopg2 pandas
 ```
 
+### Download data
+https://drive.google.com/file/d/1V6bVILJiROVPFBGMtF4t0YEcgtiOHVtz/view?usp=sharing
+.py and .txt file need to live in the same folder
+
 ## Usage
 ### For Database, tables, views, role creation and table population
 ```powershell
