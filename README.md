@@ -9,24 +9,23 @@ Brief description of your project.
 - [Usage](#usage)
 - [How to Run](#how-to-run)
 - [Views](#views)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
-
-### PostgreSQL
-
-Include brief instructions or a link for users to install PostgreSQL.
+You need to have postgres and python
 
 ### PostgREST
-
-Include brief instructions or a link for users to install PostgREST using Scoop.
-
-### Python
-
-Include brief instructions or a link for users to install Python.
+```bash
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+scoop install postgrest
 
 ### Python Packages
 
 ```bash
 pip install psycopg2 pandas
+
+## Usage
+
+## How to Run
+
+## Views (results)
