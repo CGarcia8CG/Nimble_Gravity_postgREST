@@ -28,19 +28,20 @@ pip install psycopg2 pandas
 
 ## Usage
 ```powershell
-$psqlPath = "C:\Program Files\PostgreSQL\14\bin\psql.exe"
-$databaseUser = "postgres"
-$databaseHost = "localhost"
-$databasePort = "5432"
-$scriptPath = "C:\Users\Xande\OneDrive\Escritorio\NimbleGravity\CreateDB_and_tables.sql"
+$psqlPath = "path\to\PostgreSQL\version\bin\psql.exe"
+$databaseUser = "your_user"
+$databaseHost = "your_host"
+$databasePort = "your_port"
+$scriptPath = "path\to\folder\with\CreateDB_and_tables.sql"
 & "$psqlPath" -U $databaseUser -h $databaseHost -p $databasePort -f $scriptPath
 
-cd C:\Users\Xande\OneDrive\Escritorio\NimbleGravity
+cd path\to\folder\with\populate_tables.py
 python populate_tables.py
 
 cd path\to\postgrest\folder
 postgrest postgrest.conf
 ```
+
 ## How to Run
 
 ## Views (results)
