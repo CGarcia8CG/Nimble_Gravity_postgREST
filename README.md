@@ -9,7 +9,6 @@ Brief description of your project.
 - [Usage](#usage)
 - [How to Run](#how-to-run)
 - [Views](#views)
-- [License](#license)
 
 ## Installation
 You need to have postgres and python
@@ -53,8 +52,9 @@ or
 http://localhost:3000/women_view
 
 ## Views (results)
-Women view result
+Women view result example
 ![Women View](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/women_view.png)
 
-Supervisory view result
+Supervisory view result example
 ![Supervisory view](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/supervisory_view.png)
+
