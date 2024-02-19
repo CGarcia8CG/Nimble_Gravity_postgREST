@@ -31,8 +31,9 @@ pip install psycopg2 pandas
 ```
 
 ### Download data
-https://drive.google.com/file/d/1V6bVILJiROVPFBGMtF4t0YEcgtiOHVtz/view?usp=sharing <br>
-.py and .txt file need to live in the same folder
+This is the full data set <br>
+.py and .txt file need to live in the same folder <br>
+https://drive.google.com/file/d/1V6bVILJiROVPFBGMtF4t0YEcgtiOHVtz/view?usp=sharing
 
 ## Usage
 ### For Database, tables, views, role creation and table population
