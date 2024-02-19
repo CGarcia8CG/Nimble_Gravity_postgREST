@@ -54,7 +54,7 @@ http://localhost:3000/women_view
 
 ## Views (results)
 Women view result
-![Women View]([https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/women_view.png))
+![Women View](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/women_view.png)
 
 Supervisory view result
 ![Supervisory view](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/supervisory_view.png)
