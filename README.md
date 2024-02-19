@@ -1,13 +1,11 @@
 # Nimble_Gravity_postgREST
-Instructions for Challenge
-
 Usage of postgREST to expose data (Views in this case) in JSON format.
 There are 3 files
 - CreateDB_and_tables.sql
 - populate_tables.py
 - postgrest.conf
-
-It's very impportant to put postgrest.conf in the right folder, this is the one that has the postgrest.exe file
+<br>
+It's very important to put postgrest.conf in the right folder, this is the one that has the postgrest.exe file
 
 ## Table of Contents
 
@@ -17,7 +15,7 @@ It's very impportant to put postgrest.conf in the right folder, this is the one 
 - [Views](#views)
 
 ## Installation
-You need to have postgres and python
+You need to have postgres and python <br>
 Also you need a web browser, Chrome is prefered.
 
 ### PostgREST
@@ -54,14 +52,14 @@ postgrest postgrest.conf
 ```
 Open in browser
 
-http://localhost:3000/supervisory_employment_view
-or
+http://localhost:3000/supervisory_employment_view <br>
+or <br>
 http://localhost:3000/women_view
 
-## Views (results)
-Women view result example
-![Women View](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/women_view.png)
+## Views
+Women view result example<br>
+![Women View](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/women_view.png) <br>
 
-Supervisory view result example
+Supervisory view result example<br>
 ![Supervisory view](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/supervisory_view.png)
 
