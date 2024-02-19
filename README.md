@@ -27,6 +27,7 @@ pip install psycopg2 pandas
 ```
 
 ## Usage
+### For Database, tables, views, role creation and table population
 ```powershell
 $psqlPath = "path\to\PostgreSQL\version\bin\psql.exe"
 $databaseUser = "your_user"
@@ -38,10 +39,11 @@ $scriptPath = "path\to\folder\with\CreateDB_and_tables.sql"
 cd path\to\folder\with\populate_tables.py
 python populate_tables.py
 
-cd path\to\postgrest\folder
-postgrest postgrest.conf
 ```
 
 ## How to Run
-
+```bash
+cd path\to\postgrest\folder
+postgrest postgrest.conf
+```
 ## Views (results)
