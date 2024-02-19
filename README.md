@@ -17,6 +17,8 @@ You need to have postgres and python
 ### PostgREST
 ```bash
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
+```bash
 scoop install postgrest
 
 ### Python Packages
