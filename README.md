@@ -1,7 +1,13 @@
 # Nimble_Gravity_postgREST
 Instructions for Challenge
 
-Brief description of your project.
+Usage of postgREST to expose data (Views in this case) in JSON format.
+There are 3 files
+- CreateDB_and_tables.sql
+- populate_tables.py
+- postgrest.conf
+
+It's very impportant to put postgrest.conf in the right folder, this is the one that has the postgrest.exe file
 
 ## Table of Contents
 
@@ -12,6 +18,7 @@ Brief description of your project.
 
 ## Installation
 You need to have postgres and python
+Also you need a web browser, Chrome is prefered.
 
 ### PostgREST
 ```bash
