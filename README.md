@@ -46,4 +46,15 @@ python populate_tables.py
 cd path\to\postgrest\folder
 postgrest postgrest.conf
 ```
+Open in browser
+
+http://localhost:3000/supervisory_employment_view
+or
+http://localhost:3000/women_view
+
 ## Views (results)
+Women view result
+![Women View]([https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/women_view.png))
+
+Supervisory view result
+![Supervisory view](https://github.com/CGarcia8CG/Nimble_Gravity_postgREST/blob/main/supervisory_view.png)
